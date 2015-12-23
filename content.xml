@@ -3,7 +3,7 @@
   <office:automatic-styles>
     <!-- ##### STYLING FOR UNIQUE ELEMENTS -->
     <style:style style:name="top-table.left" style:family="table-column">
-      <style:table-column-properties style:column-width="5.15in" />
+      <style:table-column-properties />
     </style:style>
     <style:style style:name="top-table.right" style:family="table-column">
     </style:style>
@@ -17,7 +17,7 @@
       <style:paragraph-properties fo:text-align="center" />
     </style:style>
     <style:style style:name="MyName" style:family="paragraph">
-      <style:text-properties fo:font-size="24pt" fo:font-weight="bold" />
+      <style:text-properties fo:font-size="25pt" fo:font-weight="bold" />
     </style:style>
     <style:style style:name="right-flush" style:family="paragraph">
       <style:paragraph-properties fo:text-align="right" />
@@ -25,12 +25,18 @@
     <style:style style:name="Objective" style:family="paragraph">
       <style:paragraph-properties fo:margin-top="0.1in">
         <style:tab-stops>
-          <style:tab-stop style:position="1.2in" style:type="left" />
+          <style:tab-stop style:position="1in" style:type="left" />
         </style:tab-stops>
       </style:paragraph-properties>
     </style:style>
     <style:style style:name="SuperBold" style:family="text">
       <style:text-properties fo:text-transform="uppercase" fo:font-weight="bold" />
+    </style:style>
+    <style:style style:name="Gray" style:family="text">
+      <style:text-properties fo:color="#777777" />
+    </style:style>
+    <style:style style:name="Link" style:family="text">
+      <style:text-properties fo:color="#000000" style:text-underline-style="none" />
     </style:style>
   </office:automatic-styles>
   <office:body>
@@ -41,22 +47,21 @@
         <table:table-column table:style-name="top-table.right" />
         <table:table-row>
           <table:table-cell table:style-name="top-table.cell">
-            <text:p text:style-name="MyName">Panupong Pasupat</text:p>
+            <text:p text:style-name="MyName">Panupong <text:span text:style-name="Gray">(Ice)</text:span> Pasupat</text:p>
           </table:table-cell>
           <table:table-cell table:style-name="top-table.cell">
             <text:p text:style-name="right-flush">94 Thoburn Ct., Apt #102, Stanford, CA 94305</text:p>
             <text:p text:style-name="right-flush">ppasupat@cs.stanford.edu<text:s text:c="2" /> | <text:s text:c="2" />(+1) 857-919-5187</text:p>
+            <text:p text:style-name="right-flush"><text:a xlink:type="simple" xlink:href="http://cs.stanford.edu/~ppasupat"><text:span text:style-name="Link">http://cs.stanford.edu/~ppasupat</text:span></text:a></text:p>
           </table:table-cell>
         </table:table-row>
       </table:table>
       <!-- ##### OBJECTIVE ##### -->
-      <!--
       <text:p text:style-name="Objective">
         <text:span text:style-name="SuperBold">Objective</text:span>
         <text:tab />
         <text:span>Pursuing a research internship in the field of natural language processing.</text:span>
       </text:p>
-      -->
       <!-- ##### EDUCATION ##### -->
       <text:p text:style-name="SuperHeader">Education<text:s text:c="2" /><text:tab /></text:p>
       <text:p text:style-name="Header">
@@ -81,6 +86,27 @@
       </text:p>
       <!-- ##### EXPERIENCE ##### -->
       <text:p text:style-name="SuperHeader">Experience<text:s text:c="2" /><text:tab /></text:p>
+      <text:p text:style-name="Header">
+        <text:span>Google Research, Google</text:span>
+        <text:tab />
+        <text:span text:style-name="NoBold">Mountain View, CA</text:span>
+      </text:p>
+      <text:p text:style-name="SubHeader">
+        <text:span>Software Engineering Intern</text:span>
+        <text:tab />
+        <text:span text:style-name="NoBold">2015</text:span>
+      </text:p>
+      <text:list text:style-name="List">
+        <text:list-item>
+          <text:p text:style-name="Bullet">Developed deep learning models with TensorFlow for retrieving words that are paraphrases of the given definitions.</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="Bullet">Designed and implemented negative sampling methods using linguistic resources to better distinguish closely related words from each other.</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="Bullet">Demonstrated how appropriate combinations of model choices and negative samplers improve the model accuracy.</text:p>
+        </text:list-item>
+      </text:list>
       <text:p text:style-name="Header">
         <text:span>Speech and Dialog Research Group, Microsoft Research</text:span>
         <text:tab />
@@ -135,10 +161,10 @@
           <text:p text:style-name="Bullet">Designed web interfaces on Amazon Mechanical Turk to collect spoken sentences and their semantic labeling.</text:p>
         </text:list-item>
         <text:list-item>
-          <text:p text:style-name="Bullet">Trained sequence tagging models by implementing features for the Conditional Random Field method, resulting in English and Chinese models for categorizing words in speech queries.</text:p>
+          <text:p text:style-name="Bullet">Trained sequence tagging models by implementing features for conditional random fields, resulting in English and Chinese models for categorizing words in speech queries.</text:p>
         </text:list-item>
         <text:list-item>
-          <text:p text:style-name="Bullet">Tested the models by using them in speech-enabled mobile applications for movie, flight, and restaurant recommendation.</text:p>
+          <text:p text:style-name="Bullet">Tested the models via speech-enabled mobile applications for movie, flight, and restaurant recommendation.</text:p>
         </text:list-item>
       </text:list>
       <text:p text:style-name="Header">
@@ -185,7 +211,6 @@
         </text:list-item>
       </text:list>
       -->
-      <!--
       <text:p text:style-name="Header">
         <text:span>Language of Thought, MIT Department of Linguistics</text:span>
         <text:tab />
@@ -204,10 +229,23 @@
           <text:p text:style-name="Bullet">Designed online experiments on Amazon Mechanical Turk to study the constraints on language acquisition.</text:p>
         </text:list-item>
       </text:list>
-      -->
       <!-- ##### PUBLICATIONS ##### -->
       <text:p text:style-name="SuperHeader">Recent Publications<text:s text:c="2" /><text:tab /></text:p>
       <text:list text:style-name="List">
+        <text:list-item>
+          <text:p text:style-name="Bullet">
+            <text:span text:style-name="Bold">Panupong Pasupat</text:span>, Percy Liang.
+            “Compositional Semantic Parsing on Semi-Structured Tables.” 
+            <text:span text:style-name="Italic">Association for Computational Linguistics (ACL)</text:span>, 2015.
+          </text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="Bullet">
+            <text:span text:style-name="Bold">Panupong Pasupat</text:span>, Dilek Hakkani-Tür.
+            “Unsupervised Relation Detection Using Automatic Alignment of Query Patterns Extracted from Knowledge Graphs and Query Click Logs.” 
+            <text:span text:style-name="Italic">Interspeech</text:span>, 2015.
+          </text:p>
+        </text:list-item>
         <text:list-item>
           <text:p text:style-name="Bullet">
             <text:span text:style-name="Bold">Panupong Pasupat</text:span>, Percy Liang.
@@ -215,6 +253,7 @@
             <text:span text:style-name="Italic">Association for Computational Linguistics (ACL)</text:span>, 2014.
           </text:p>
         </text:list-item>
+        <!--
         <text:list-item>
           <text:p text:style-name="Bullet">
             Jingjing Liu, Scott Cyphers, <text:span text:style-name="Bold">Panupong Pasupat</text:span>, Ian Mcgraw, and Jim Glass.
@@ -229,6 +268,7 @@
             <text:span text:style-name="Italic">InterSpeech</text:span>, 2012.
           </text:p>
         </text:list-item>
+        -->
       </text:list>
       <!-- ##### SKILLS ##### -->
       <text:p text:style-name="SuperHeader">Skills<text:s text:c="2" /><text:tab /></text:p>
