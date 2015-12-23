@@ -162,6 +162,7 @@
           <text:p text:style-name="Bullet">Implemented bug filtering and email notification system in the error log viewer, making critical errors get fixed faster.</text:p>
         </text:list-item>
       </text:list>
+      <!--
       <text:p text:style-name="Header">
         <text:span>Reflective Commonsense Thinking, MIT Media Lab</text:span>
         <text:tab />
@@ -183,6 +184,8 @@
           <text:p text:style-name="Bullet">Applied the algorithms on analogy problems, enabling the system to make decisions based on past experiences.</text:p>
         </text:list-item>
       </text:list>
+      -->
+      <!--
       <text:p text:style-name="Header">
         <text:span>Language of Thought, MIT Department of Linguistics</text:span>
         <text:tab />
@@ -201,6 +204,7 @@
           <text:p text:style-name="Bullet">Designed online experiments on Amazon Mechanical Turk to study the constraints on language acquisition.</text:p>
         </text:list-item>
       </text:list>
+      -->
       <!-- ##### PUBLICATIONS ##### -->
       <text:p text:style-name="SuperHeader">Recent Publications<text:s text:c="2" /><text:tab /></text:p>
       <text:list text:style-name="List">
