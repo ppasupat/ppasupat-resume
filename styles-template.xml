@@ -3,7 +3,7 @@
   <office:styles>
     <!-- ##### DEFAULT STYLES ##### -->
     <style:default-style style:family="paragraph">
-      <style:text-properties style:font-name="Cabin" fo:font-family="'Cabin'" fo:font-size="10.5pt" style:letter-kerning="true" />
+      <style:text-properties style:font-name="Linux Biolinum" fo:font-family="'Linux Biolinum'" fo:font-size="10.5pt" style:letter-kerning="true" />
     </style:default-style>
     <!-- ##### STYLES ##### -->
     <style:style style:name="Standard" style:family="paragraph" style:class="text">

@@ -3,16 +3,12 @@
   <office:automatic-styles>
     <!-- ##### STYLING FOR UNIQUE ELEMENTS -->
     <style:style style:name="top-table.left" style:family="table-column">
-      <style:table-column-properties style:column-width="2.15in" />
-    </style:style>
-    <style:style style:name="top-table.center" style:family="table-column">
-      <style:table-column-properties style:column-width="3.20in" />
+      <style:table-column-properties style:column-width="5.15in" />
     </style:style>
     <style:style style:name="top-table.right" style:family="table-column">
-      <style:table-column-properties style:column-width="2.15in" />
     </style:style>
     <style:style style:name="top-table.cell" style:family="table-cell">
-      <style:table-cell-properties fo:padding-left="0.04in" fo:padding-right="0.04in" fo:padding-top="0.04in" fo:padding-bottom="0.08in" fo:border-bottom="2.5pt solid #000000" />
+      <style:table-cell-properties fo:padding-left="0in" fo:padding-right="0in" fo:padding-top="0in" fo:padding-bottom="0.08in" fo:border-bottom="2.5pt solid #000000" style:vertical-align="bottom" />
     </style:style>
     <style:style style:name="left-flush" style:family="paragraph">
       <style:paragraph-properties fo:text-align="left" />
@@ -21,8 +17,7 @@
       <style:paragraph-properties fo:text-align="center" />
     </style:style>
     <style:style style:name="MyName" style:family="paragraph">
-      <style:paragraph-properties fo:text-align="center" />
-      <style:text-properties fo:font-size="20pt" fo:font-weight="bold" />
+      <style:text-properties fo:font-size="24pt" fo:font-weight="bold" />
     </style:style>
     <style:style style:name="right-flush" style:family="paragraph">
       <style:paragraph-properties fo:text-align="right" />
@@ -43,40 +38,34 @@
       <!-- ##### TOP TABLE ##### -->
       <table:table table:style-name="top-table">
         <table:table-column table:style-name="top-table.left" />
-        <table:table-column table:style-name="top-table.center" />
         <table:table-column table:style-name="top-table.right" />
         <table:table-row>
           <table:table-cell table:style-name="top-table.cell">
-            <text:p text:style-name="left-flush"><text:span text:style-name="Bold">Term Address</text:span></text:p>
-            <text:p text:style-name="left-flush">94 Thoburn Ct., Apt 102</text:p>
-            <text:p text:style-name="left-flush">Stanford, CA 94305</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="top-table.cell">
             <text:p text:style-name="MyName">Panupong Pasupat</text:p>
-            <text:p text:style-name="centerize"><text:span>ppasupat@cs.stanford.edu</text:span> | (+1) 857-919-5187</text:p>
           </table:table-cell>
           <table:table-cell table:style-name="top-table.cell">
-            <text:p text:style-name="right-flush"><text:span text:style-name="Bold">Permanent Address</text:span></text:p>
-            <text:p text:style-name="right-flush">54 Soi Phetchaburi 5, Ratchathewi</text:p>
-            <text:p text:style-name="right-flush">Bangkok 10400, Thailand</text:p>
+            <text:p text:style-name="right-flush">94 Thoburn Ct., Apt #102, Stanford, CA 94305</text:p>
+            <text:p text:style-name="right-flush">ppasupat@cs.stanford.edu<text:s text:c="2" /> | <text:s text:c="2" />(+1) 857-919-5187</text:p>
           </table:table-cell>
         </table:table-row>
       </table:table>
       <!-- ##### OBJECTIVE ##### -->
+      <!--
       <text:p text:style-name="Objective">
         <text:span text:style-name="SuperBold">Objective</text:span>
         <text:tab />
-        <text:span>Pursuing a research internship within the field of natural language processing and machine learning.</text:span>
+        <text:span>Pursuing a research internship in the field of natural language processing.</text:span>
       </text:p>
+      -->
       <!-- ##### EDUCATION ##### -->
-      <text:p text:style-name="SuperHeader">Education</text:p>
+      <text:p text:style-name="SuperHeader">Education<text:s text:c="2" /><text:tab /></text:p>
       <text:p text:style-name="Header">
         <text:span>Stanford University</text:span>
         <text:tab />
         <text:span text:style-name="NoBold">Stanford, CA</text:span>
       </text:p>
       <text:p text:style-name="SubHeader">
-        <text:span>Pursuing Doctor of Philosophy in Computer Science</text:span>
+        <text:span text:style-name="NoBold">Pursuing Doctor of Philosophy in Computer Science</text:span>
         <text:tab />
         <text:span text:style-name="NoBold">current</text:span>
       </text:p>
@@ -86,14 +75,12 @@
         <text:span text:style-name="NoBold">Cambridge, MA</text:span>
       </text:p>
       <text:p text:style-name="SubHeader">
-        <text:span>Bachelor of Science in Electrical Engineering and Computer Science</text:span>
-        <text:s text:c="3" />
-        <text:span>(GPA 5.0/5.0)</text:span>
+        <text:span text:style-name="NoBold">Bachelor of Science in Electrical Engineering and Computer Science<text:s text:c="3" />(GPA 5.0/5.0)</text:span>
         <text:tab />
         <text:span text:style-name="NoBold">2009-2013</text:span>
       </text:p>
       <!-- ##### EXPERIENCE ##### -->
-      <text:p text:style-name="SuperHeader">Experience</text:p>
+      <text:p text:style-name="SuperHeader">Experience<text:s text:c="2" /><text:tab /></text:p>
       <text:p text:style-name="Header">
         <text:span>Speech and Dialog Research Group, Microsoft Research</text:span>
         <text:tab />
@@ -215,7 +202,7 @@
         </text:list-item>
       </text:list>
       <!-- ##### PUBLICATIONS ##### -->
-      <text:p text:style-name="SuperHeader">Publications</text:p>
+      <text:p text:style-name="SuperHeader">Recent Publications<text:s text:c="2" /><text:tab /></text:p>
       <text:list text:style-name="List">
         <text:list-item>
           <text:p text:style-name="Bullet">
@@ -240,7 +227,7 @@
         </text:list-item>
       </text:list>
       <!-- ##### SKILLS ##### -->
-      <text:p text:style-name="SuperHeader">Skills</text:p>
+      <text:p text:style-name="SuperHeader">Skills<text:s text:c="2" /><text:tab /></text:p>
       <text:list text:style-name="List">
         <text:list-item>
           <text:p text:style-name="Bullet">
