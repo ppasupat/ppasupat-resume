@@ -13,5 +13,5 @@ To use serif font, run
 # Requirements
 
 * [unoconv](http://dag.wiee.rs/home-made/unoconv/)
-* [Linux Libertine fonts](http://www.linuxlibertine.org/)
 * `bash`, `sed`, and `zip`
+* A nice font such as one of [Linux Libertine fonts](http://www.linuxlibertine.org/)
