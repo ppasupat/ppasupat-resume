@@ -16,18 +16,18 @@
     <style:style style:name="centerize" style:family="paragraph">
       <style:paragraph-properties fo:text-align="center" />
     </style:style>
-    <style:style style:name="MyName" style:family="paragraph">
-      <style:text-properties fo:font-size="25pt" fo:font-weight="bold" />
-    </style:style>
     <style:style style:name="right-flush" style:family="paragraph">
       <style:paragraph-properties fo:text-align="right" />
     </style:style>
     <style:style style:name="Objective" style:family="paragraph">
       <style:paragraph-properties fo:margin-top="0.1in">
         <style:tab-stops>
-          <style:tab-stop style:position="1in" style:type="left" />
+          <style:tab-stop style:position="1.1in" style:type="left" />
         </style:tab-stops>
       </style:paragraph-properties>
+    </style:style>
+    <style:style style:name="MyName" style:family="paragraph">
+      <style:text-properties fo:font-size="25pt" fo:font-weight="bold" />
     </style:style>
     <style:style style:name="SuperBold" style:family="text">
       <style:text-properties fo:text-transform="uppercase" fo:font-weight="bold" />
@@ -101,7 +101,7 @@
           <text:p text:style-name="Bullet">Developed deep learning models with TensorFlow for retrieving words that are paraphrases of the given definitions.</text:p>
         </text:list-item>
         <text:list-item>
-          <text:p text:style-name="Bullet">Designed and implemented negative sampling methods using linguistic resources to better distinguish closely related words from each other.</text:p>
+          <text:p text:style-name="Bullet">Proposed and implemented negative sampling methods using linguistic resources to better distinguish closely related words from each other.</text:p>
         </text:list-item>
         <text:list-item>
           <text:p text:style-name="Bullet">Demonstrated how appropriate combinations of model choices and negative samplers improve the model accuracy.</text:p>
