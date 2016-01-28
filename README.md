@@ -6,7 +6,7 @@ To generate PDF with the default font (Linux Biolinum; sans-serif), run
 
     ./run.sh
 
-To use Linux Libertin (serif), run
+To use Linux Libertine (serif), run
 
     ./run.sh liber
     
