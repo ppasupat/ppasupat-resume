@@ -167,6 +167,7 @@
           <text:p text:style-name="Bullet">Tested the models via speech-enabled mobile applications for movie, flight, and restaurant recommendation.</text:p>
         </text:list-item>
       </text:list>
+      <!--
       <text:p text:style-name="Header">
         <text:span>Dropbox Inc.</text:span>
         <text:tab />
@@ -188,6 +189,7 @@
           <text:p text:style-name="Bullet">Implemented bug filtering and email notification system in the error log viewer, making critical errors get fixed faster.</text:p>
         </text:list-item>
       </text:list>
+      -->
       <!--
       <text:p text:style-name="Header">
         <text:span>Reflective Commonsense Thinking, MIT Media Lab</text:span>
@@ -230,8 +232,29 @@
         </text:list-item>
       </text:list>
       <!-- ##### PUBLICATIONS ##### -->
-      <text:p text:style-name="SuperHeader">Recent Publications<text:s text:c="2" /><text:tab /></text:p>
+      <text:p text:style-name="SuperHeader">Selected Publications<text:s text:c="2" /><text:tab /></text:p>
       <text:list text:style-name="List">
+        <text:list-item>
+          <text:p text:style-name="Bullet">
+            Yuchen Zhang, <text:span text:style-name="Bold">Panupong Pasupat</text:span>, Percy Liang.
+            “Macro Grammars and Holistic Triggering for Efficient Semantic Parsing.” 
+            <text:span text:style-name="Italic">Empirical Methods on Natural Language Processing (EMNLP)</text:span>, 2017.
+          </text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="Bullet">
+            Kelvin Guu, <text:span text:style-name="Bold">Panupong Pasupat</text:span>, Evan Liu, Percy Liang.
+            “From Language to Programs: Bridging Reinforcement Learning and Maximum Marginal Likelihood.” 
+            <text:span text:style-name="Italic">Association for Computational Linguistics (ACL)</text:span>, 2017.
+          </text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="Bullet">
+            <text:span text:style-name="Bold">Panupong Pasupat</text:span>, Percy Liang.
+            “Inferring Logical Forms From Denotations.” 
+            <text:span text:style-name="Italic">Association for Computational Linguistics (ACL)</text:span>, 2016.
+          </text:p>
+        </text:list-item>
         <text:list-item>
           <text:p text:style-name="Bullet">
             <text:span text:style-name="Bold">Panupong Pasupat</text:span>, Percy Liang.
@@ -276,7 +299,7 @@
         <text:list-item>
           <text:p text:style-name="Bullet">
             <text:span text:style-name="Bold">Computer Languages:</text:span>
-            Python, Java, JavaScript, C / C++, Visual Basic
+            Python, Java, JavaScript
           </text:p>
         </text:list-item>
         <text:list-item>
