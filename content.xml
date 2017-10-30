@@ -47,10 +47,10 @@
         <table:table-column table:style-name="top-table.right" />
         <table:table-row>
           <table:table-cell table:style-name="top-table.cell">
-            <text:p text:style-name="MyName">Panupong <text:span text:style-name="Gray">(Ice)</text:span> Pasupat</text:p>
+            <text:p text:style-name="MyName"><text:span text:style-name="HeaderFont">Panupong <text:span text:style-name="Gray">(Ice)</text:span> Pasupat</text:span></text:p>
           </table:table-cell>
           <table:table-cell table:style-name="top-table.cell">
-            <text:p text:style-name="right-flush">94 Thoburn Ct., Apt #102, Stanford, CA 94305</text:p>
+            <text:p text:style-name="right-flush">720 Serra St., Apt 216, Stanford CA 94305</text:p>
             <text:p text:style-name="right-flush">ppasupat@cs.stanford.edu<text:s text:c="2" /> | <text:s text:c="2" />(+1) 857-919-5187</text:p>
             <text:p text:style-name="right-flush"><text:a xlink:type="simple" xlink:href="http://cs.stanford.edu/~ppasupat"><text:span text:style-name="Link">http://cs.stanford.edu/~ppasupat</text:span></text:a></text:p>
           </table:table-cell>
@@ -58,7 +58,7 @@
       </table:table>
       <!-- ##### OBJECTIVE ##### -->
       <text:p text:style-name="Objective">
-        <text:span text:style-name="SuperBold">Objective</text:span>
+        <text:span text:style-name="HeaderFont"><text:span text:style-name="SuperBold">Objective</text:span></text:span>
         <text:tab />
         <text:span>Pursuing a research internship in the field of natural language processing.</text:span>
       </text:p>
