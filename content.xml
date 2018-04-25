@@ -51,8 +51,8 @@
           </table:table-cell>
           <table:table-cell table:style-name="top-table.cell">
             <text:p text:style-name="right-flush">720 Serra St., Apt 216, Stanford CA 94305</text:p>
-            <text:p text:style-name="right-flush">ppasupat@cs.stanford.edu<text:s text:c="2" /> | <text:s text:c="2" />(+1) 857-919-5187</text:p>
-            <text:p text:style-name="right-flush"><text:a xlink:type="simple" xlink:href="http://cs.stanford.edu/~ppasupat"><text:span text:style-name="Link">http://cs.stanford.edu/~ppasupat</text:span></text:a></text:p>
+            <text:p text:style-name="right-flush"><text:a xlink:type="simple" xlink:href="mailto:ppasupat@cs.stanford.edu"><text:span text:style-name="Link">ppasupat@cs.stanford.edu</text:span></text:a><text:s text:c="2" /> | <text:s text:c="2" />(+1) 857-919-5187</text:p>
+            <text:p text:style-name="right-flush"><text:a xlink:type="simple" xlink:href="https://ppasupat.github.io"><text:span text:style-name="Link">https://ppasupat.github.io</text:span></text:a></text:p>
           </table:table-cell>
         </table:table-row>
       </table:table>
@@ -236,42 +236,49 @@
       <text:list text:style-name="List">
         <text:list-item>
           <text:p text:style-name="Bullet">
-            Yuchen Zhang, <text:span text:style-name="Bold">Panupong Pasupat</text:span>, Percy Liang.
+            E. Liu, K. Guu, P. Pasupat, T. Shi, P. Liang.
+            “Reinforcement Learning on Web Interfaces using Workflow-Guided Exploration.” 
+            <text:span text:style-name="Italic">International Conference on Learning Representations (ICLR)</text:span>, 2018.
+          </text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="Bullet">
+            Y. Zhang, P. Pasupat, P. Liang.
             “Macro Grammars and Holistic Triggering for Efficient Semantic Parsing.” 
             <text:span text:style-name="Italic">Empirical Methods on Natural Language Processing (EMNLP)</text:span>, 2017.
           </text:p>
         </text:list-item>
         <text:list-item>
           <text:p text:style-name="Bullet">
-            Kelvin Guu, <text:span text:style-name="Bold">Panupong Pasupat</text:span>, Evan Liu, Percy Liang.
+            K. Guu, P. Pasupat, E. Liu, P. Liang.
             “From Language to Programs: Bridging Reinforcement Learning and Maximum Marginal Likelihood.” 
             <text:span text:style-name="Italic">Association for Computational Linguistics (ACL)</text:span>, 2017.
           </text:p>
         </text:list-item>
         <text:list-item>
           <text:p text:style-name="Bullet">
-            <text:span text:style-name="Bold">Panupong Pasupat</text:span>, Percy Liang.
+            P. Pasupat, P. Liang.
             “Inferring Logical Forms From Denotations.” 
             <text:span text:style-name="Italic">Association for Computational Linguistics (ACL)</text:span>, 2016.
           </text:p>
         </text:list-item>
         <text:list-item>
           <text:p text:style-name="Bullet">
-            <text:span text:style-name="Bold">Panupong Pasupat</text:span>, Percy Liang.
+            P. Pasupat, P. Liang.
             “Compositional Semantic Parsing on Semi-Structured Tables.” 
             <text:span text:style-name="Italic">Association for Computational Linguistics (ACL)</text:span>, 2015.
           </text:p>
         </text:list-item>
         <text:list-item>
           <text:p text:style-name="Bullet">
-            <text:span text:style-name="Bold">Panupong Pasupat</text:span>, Dilek Hakkani-Tür.
+            P. Pasupat, D. Hakkani-Tür.
             “Unsupervised Relation Detection Using Automatic Alignment of Query Patterns Extracted from Knowledge Graphs and Query Click Logs.” 
             <text:span text:style-name="Italic">Interspeech</text:span>, 2015.
           </text:p>
         </text:list-item>
         <text:list-item>
           <text:p text:style-name="Bullet">
-            <text:span text:style-name="Bold">Panupong Pasupat</text:span>, Percy Liang.
+            P. Pasupat, P. Liang.
             “Zero-shot entity extraction from web pages.” 
             <text:span text:style-name="Italic">Association for Computational Linguistics (ACL)</text:span>, 2014.
           </text:p>
@@ -305,7 +312,7 @@
         <text:list-item>
           <text:p text:style-name="Bullet">
             <text:span text:style-name="Bold">Languages:</text:span>
-            Thai (native speaker), English (fluent), Japanese (intermediate)
+            Thai (native speaker), English (fluent), Japanese (intermediate), Chinese (beginner)
           </text:p>
         </text:list-item>
       </text:list>
