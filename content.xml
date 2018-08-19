@@ -57,11 +57,13 @@
         </table:table-row>
       </table:table>
       <!-- ##### OBJECTIVE ##### -->
+      <!--
       <text:p text:style-name="Objective">
         <text:span text:style-name="HeaderFont"><text:span text:style-name="SuperBold">Objective</text:span></text:span>
         <text:tab />
         <text:span>Pursuing a research internship in the field of natural language processing.</text:span>
       </text:p>
+      -->
       <!-- ##### EDUCATION ##### -->
       <text:p text:style-name="SuperHeader">Education<text:s text:c="2" /><text:tab /></text:p>
       <text:p text:style-name="Header">
