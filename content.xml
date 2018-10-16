@@ -88,6 +88,26 @@
       </text:p>
       <!-- ##### EXPERIENCE ##### -->
       <text:p text:style-name="SuperHeader">Experience<text:s text:c="2" /><text:tab /></text:p>
+      <!--
+      <text:p text:style-name="Header">
+        <text:span>Messenger Team, Facebook</text:span>
+        <text:tab />
+        <text:span text:style-name="NoBold">Menlo Park, CA</text:span>
+      </text:p>
+      <text:p text:style-name="SubHeader">
+        <text:span>Software Engineering Intern</text:span>
+        <text:tab />
+        <text:span text:style-name="NoBold">2018</text:span>
+      </text:p>
+      <text:list text:style-name="List">
+        <text:list-item>
+          <text:p text:style-name="Bullet"></text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="Bullet"></text:p>
+        </text:list-item>
+      </text:list>
+      -->
       <text:p text:style-name="Header">
         <text:span>Google Research, Google</text:span>
         <text:tab />
@@ -215,6 +235,7 @@
         </text:list-item>
       </text:list>
       -->
+      <!--
       <text:p text:style-name="Header">
         <text:span>Language of Thought, MIT Department of Linguistics</text:span>
         <text:tab />
@@ -233,8 +254,68 @@
           <text:p text:style-name="Bullet">Designed online experiments on Amazon Mechanical Turk to study the constraints on language acquisition.</text:p>
         </text:list-item>
       </text:list>
+      -->
       <!-- ##### PUBLICATIONS ##### -->
       <text:p text:style-name="SuperHeader">Selected Publications<text:s text:c="2" /><text:tab /></text:p>
+      <text:p text:style-name="Header">
+        <text:span>Reinforcement Learning on Web Interfaces using Workflow-Guided Exploration</text:span>
+        <text:tab />
+        <text:span text:style-name="NoBold">ICLR 2018</text:span>
+      </text:p>
+      <text:p text:style-name="SubHeader">
+        <text:span text:style-name="NoBold">E. Liu*, K. Guu*, P. Pasupat*, T. Shi, P. Liang (*equal contribution)</text:span>
+      </text:p>
+      <text:list text:style-name="List">
+        <text:list-item>
+          <text:p text:style-name="Bullet">Designed and implemented a novel exploration algorithm for reinforcement learning agents, which reduces the amount of expert demonstrations needed by 100x.</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="Bullet">Improved and open-sourced the MiniWoB++ Web interface interaction benchmark for reinforcement learning.</text:p>
+        </text:list-item>
+      </text:list>
+      <text:p text:style-name="Header">
+        <text:span>Compositional Semantic Parsing on Semi-Structured Tables</text:span>
+        <text:tab />
+        <text:span text:style-name="NoBold">ACL 2015</text:span>
+      </text:p>
+      <text:p text:style-name="SubHeader">
+        <text:span text:style-name="NoBold">P. Pasupat, P. Liang</text:span>
+      </text:p>
+      <text:p text:style-name="Header">
+        <text:span>Inferring Logical Forms From Denotations</text:span>
+        <text:tab />
+        <text:span text:style-name="NoBold">ACL 2016</text:span>
+      </text:p>
+      <text:p text:style-name="SubHeader">
+        <text:span text:style-name="NoBold">P. Pasupat, P. Liang</text:span>
+      </text:p>
+      <text:p text:style-name="Header">
+        <text:span>Macro Grammars and Holistic Triggering for Efficient Semantic Parsing</text:span>
+        <text:tab />
+        <text:span text:style-name="NoBold">EMNLP 2017</text:span>
+      </text:p>
+      <text:p text:style-name="SubHeader">
+        <text:span text:style-name="NoBold">Y. Zhang, P. Pasupat, P. Liang</text:span>
+      </text:p>
+      <text:list text:style-name="List">
+        <text:list-item>
+          <text:p text:style-name="Bullet">The three publications above propose machine learning models for answering complex natural language questions based on the information in a given Web table.</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="Bullet">Designed and implemented novel algorithms to flexibly handle lexical and syntactic mismatches, filter misleading solutions that sometimes give correct answers, and reuse parts of good solutions to speed up the model.</text:p>
+        </text:list-item>
+      </text:list>
+      <!--
+      <text:p text:style-name="Header">
+        <text:span>Zero-shot entity extraction from web pages</text:span>
+        <text:tab />
+        <text:span text:style-name="NoBold">ACL 2014</text:span>
+      </text:p>
+      <text:p text:style-name="SubHeader">
+        <text:span text:style-name="NoBold">P. Pasupat, P. Liang</text:span>
+      </text:p>
+      -->
+      <!--
       <text:list text:style-name="List">
         <text:list-item>
           <text:p text:style-name="Bullet">
@@ -285,7 +366,6 @@
             <text:span text:style-name="Italic">Association for Computational Linguistics (ACL)</text:span>, 2014.
           </text:p>
         </text:list-item>
-        <!--
         <text:list-item>
           <text:p text:style-name="Bullet">
             Jingjing Liu, Scott Cyphers, <text:span text:style-name="Bold">Panupong Pasupat</text:span>, Ian Mcgraw, and Jim Glass.
@@ -300,7 +380,23 @@
             <text:span text:style-name="Italic">InterSpeech</text:span>, 2012.
           </text:p>
         </text:list-item>
-        -->
+      </text:list>
+      -->
+      <!-- ##### AWARDS ##### -->
+      <text:p text:style-name="SuperHeader">Awards<text:s text:c="2" /><text:tab /></text:p>
+      <text:list text:style-name="List">
+        <text:list-item>
+          <text:p text:style-name="Bullet">
+            <text:span text:style-name="Bold">International Olympiad in Informatics (IOI):</text:span>
+            Gold Medal (2008)
+          </text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="Bullet">
+            <text:span text:style-name="Bold">International Mathematical Olympiad (IMO):</text:span>
+            Gold Medal (2007), 2 Silver Medals (2006, 2005)
+          </text:p>
+        </text:list-item>
       </text:list>
       <!-- ##### SKILLS ##### -->
       <text:p text:style-name="SuperHeader">Skills<text:s text:c="2" /><text:tab /></text:p>
@@ -308,7 +404,7 @@
         <text:list-item>
           <text:p text:style-name="Bullet">
             <text:span text:style-name="Bold">Computer Languages:</text:span>
-            Python, Java, JavaScript
+            Python (TensorFlow, PyTorch), Java, JavaScript
           </text:p>
         </text:list-item>
         <text:list-item>
