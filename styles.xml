@@ -3,7 +3,7 @@
   <office:styles>
     <!-- ##### DEFAULT STYLES ##### -->
     <style:default-style style:family="paragraph">
-      <style:text-properties style:font-name="MAINFONT" fo:font-family="'MAINFONT'" fo:font-size="10.5pt" style:letter-kerning="true" />
+      <style:text-properties style:font-name="Linux Libertine" fo:font-family="'Linux Libertine'" fo:font-size="10.5pt" style:letter-kerning="true" />
     </style:default-style>
     <!-- ##### STYLES ##### -->
     <style:style style:name="Standard" style:family="paragraph" style:class="text">
@@ -14,7 +14,7 @@
       </style:paragraph-properties>
     </style:style>
     <style:style style:name="HeaderFont" style:family="text">
-      <style:text-properties style:font-name="HEADERFONT" fo:font-family="'HEADERFONT'" />
+      <style:text-properties style:font-name="Linux Biolinum" fo:font-family="'Linux Biolinum'" />
     </style:style>
     <style:style style:name="Bold" style:family="text">
       <style:text-properties fo:font-weight="bold" />
@@ -29,23 +29,23 @@
       <style:paragraph-properties fo:margin-left="0.25in" fo:margin-right="0in" fo:margin-top="0in" fo:margin-bottom="0in" fo:text-indent="0in" />
     </style:style>
     <style:style style:name="SubHeader" style:family="paragraph" style:parent-style-name="Description" style:class="text">
-      <style:paragraph-properties fo:margin-left="0.1in" fo:margin-right="0in" fo:margin-top="0in" fo:margin-bottom="0.01in" fo:text-indent="0in" />
-      <style:text-properties fo:font-style="italic" fo:font-weight="bold" />
+      <style:paragraph-properties fo:margin-left="0.1in" fo:margin-right="0in" fo:margin-top="0in" fo:margin-bottom="0.02in" fo:text-indent="0in" fo:line-height="10pt" />
+      <style:text-properties fo:font-style="italic" fo:font-weight="bold" fo:font-size="9.5pt" />
     </style:style>
     <style:style style:name="Header" style:family="paragraph" style:parent-style-name="SubHeader" style:class="text">
-      <style:paragraph-properties fo:margin-left="0.1in" fo:margin-right="0in" fo:margin-top="0.02in" fo:margin-bottom="0in" fo:text-indent="0in" />
-      <style:text-properties fo:font-style="normal" fo:font-weight="bold" />
+      <style:paragraph-properties fo:margin-left="0.1in" fo:margin-right="0in" fo:margin-top="0.08in" fo:margin-bottom="0in" fo:text-indent="0in" />
+      <style:text-properties fo:font-style="normal" fo:font-weight="bold" fo:font-size="10.5pt" />
     </style:style>
     <style:style style:name="SuperHeader" style:family="paragraph" style:parent-style-name="Header" style:class="text">
-      <style:paragraph-properties fo:margin-left="0in" fo:margin-right="0in" fo:margin-top="0.07in" fo:margin-bottom="0.03in"  fo:text-indent="0in">
+      <style:paragraph-properties fo:margin-left="0in" fo:margin-right="0in" fo:margin-top="0.09in" fo:margin-bottom="0in"  fo:text-indent="0in">
         <style:tab-stops>
           <style:tab-stop style:position="7.6in" style:type="right" style:leader-text="·" style:leader-style="dash" />
         </style:tab-stops>
       </style:paragraph-properties>
-      <style:text-properties style:font-name="HEADERFONT" fo:font-family="'HEADERFONT'" fo:text-transform="uppercase" fo:font-style="normal" fo:font-weight="bold" />
+      <style:text-properties style:font-name="Linux Biolinum" fo:font-family="'Linux Biolinum'" fo:text-transform="uppercase" fo:font-style="normal" fo:font-weight="bold" />
     </style:style>
     <style:style style:name="Bullet" style:family="paragraph" style:parent-style-name="Description" style:list-style-name="List" style:class="text">
-      <style:paragraph-properties fo:margin-left="0.25in" fo:margin-right="0in" fo:margin-top="0in" fo:margin-bottom="0.02in" fo:text-indent="-0.1in">
+      <style:paragraph-properties fo:margin-left="0.25in" fo:margin-right="0in" fo:margin-top="0in" fo:margin-bottom="0in" fo:text-indent="-0.1in" fo:line-height="11.5pt" >
         <style:tab-stops>
           <style:tab-stop style:position="0.45in" />
           <style:tab-stop style:position="7.6in" style:type="right" />

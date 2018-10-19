@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <office:document-content xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2">
+
+
   <office:automatic-styles>
     <!-- ##### STYLING FOR UNIQUE ELEMENTS -->
     <style:style style:name="top-table.left" style:family="table-column">
@@ -38,9 +40,16 @@
     <style:style style:name="Link" style:family="text">
       <style:text-properties fo:color="#000000" style:text-underline-style="none" />
     </style:style>
+    <style:style style:name="HeaderSmallTopMargin" style:family="paragraph" style:parent-style-name="Header">
+      <style:paragraph-properties fo:margin-top="0.02in" />
+    </style:style>
   </office:automatic-styles>
+
+
   <office:body>
     <office:text>
+
+
       <!-- ##### TOP TABLE ##### -->
       <table:table table:style-name="top-table">
         <table:table-column table:style-name="top-table.left" />
@@ -56,6 +65,8 @@
           </table:table-cell>
         </table:table-row>
       </table:table>
+
+
       <!-- ##### OBJECTIVE ##### -->
       <!--
       <text:p text:style-name="Objective">
@@ -64,6 +75,8 @@
         <text:span>Pursuing a research internship in the field of natural language processing.</text:span>
       </text:p>
       -->
+
+
       <!-- ##### EDUCATION ##### -->
       <text:p text:style-name="SuperHeader">Education<text:s text:c="2" /><text:tab /></text:p>
       <text:p text:style-name="Header">
@@ -86,6 +99,8 @@
         <text:tab />
         <text:span text:style-name="NoBold">2009-2013</text:span>
       </text:p>
+
+
       <!-- ##### EXPERIENCE ##### -->
       <text:p text:style-name="SuperHeader">Experience<text:s text:c="2" /><text:tab /></text:p>
       <!--
@@ -255,6 +270,8 @@
         </text:list-item>
       </text:list>
       -->
+
+
       <!-- ##### PUBLICATIONS ##### -->
       <text:p text:style-name="SuperHeader">Selected Publications<text:s text:c="2" /><text:tab /></text:p>
       <text:p text:style-name="Header">
@@ -273,6 +290,7 @@
           <text:p text:style-name="Bullet">Improved and open-sourced the MiniWoB++ Web interface interaction benchmark for reinforcement learning.</text:p>
         </text:list-item>
       </text:list>
+
       <text:p text:style-name="Header">
         <text:span>Compositional Semantic Parsing on Semi-Structured Tables</text:span>
         <text:tab />
@@ -281,7 +299,7 @@
       <text:p text:style-name="SubHeader">
         <text:span text:style-name="NoBold">P. Pasupat, P. Liang</text:span>
       </text:p>
-      <text:p text:style-name="Header">
+      <text:p text:style-name="HeaderSmallTopMargin">
         <text:span>Inferring Logical Forms From Denotations</text:span>
         <text:tab />
         <text:span text:style-name="NoBold">ACL 2016</text:span>
@@ -289,7 +307,7 @@
       <text:p text:style-name="SubHeader">
         <text:span text:style-name="NoBold">P. Pasupat, P. Liang</text:span>
       </text:p>
-      <text:p text:style-name="Header">
+      <text:p text:style-name="HeaderSmallTopMargin">
         <text:span>Macro Grammars and Holistic Triggering for Efficient Semantic Parsing</text:span>
         <text:tab />
         <text:span text:style-name="NoBold">EMNLP 2017</text:span>
@@ -382,6 +400,8 @@
         </text:list-item>
       </text:list>
       -->
+
+
       <!-- ##### AWARDS ##### -->
       <text:p text:style-name="SuperHeader">Awards<text:s text:c="2" /><text:tab /></text:p>
       <text:list text:style-name="List">
@@ -398,6 +418,8 @@
           </text:p>
         </text:list-item>
       </text:list>
+
+
       <!-- ##### SKILLS ##### -->
       <text:p text:style-name="SuperHeader">Skills<text:s text:c="2" /><text:tab /></text:p>
       <text:list text:style-name="List">
@@ -414,6 +436,8 @@
           </text:p>
         </text:list-item>
       </text:list>
+
+
     </office:text>
   </office:body>
 </office:document-content>
