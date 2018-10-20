@@ -40,9 +40,6 @@
     <style:style style:name="Link" style:family="text">
       <style:text-properties fo:color="#000000" style:text-underline-style="none" />
     </style:style>
-    <style:style style:name="HeaderSmallTopMargin" style:family="paragraph" style:parent-style-name="Header">
-      <style:paragraph-properties fo:margin-top="0.02in" />
-    </style:style>
   </office:automatic-styles>
 
 
@@ -85,25 +82,24 @@
         <text:span text:style-name="NoBold">Stanford, CA</text:span>
       </text:p>
       <text:p text:style-name="SubHeader">
-        <text:span text:style-name="NoBold">Pursuing Doctor of Philosophy in Computer Science</text:span>
+        <text:span>Pursuing Doctor of Philosophy in Computer Science</text:span>
         <text:tab />
-        <text:span text:style-name="NoBold">current</text:span>
+        <text:span>current</text:span>
       </text:p>
-      <text:p text:style-name="Header">
+      <text:p text:style-name="HeaderSpaceless">
         <text:span>Massachusetts Institute of Technology</text:span>
         <text:tab />
         <text:span text:style-name="NoBold">Cambridge, MA</text:span>
       </text:p>
       <text:p text:style-name="SubHeader">
-        <text:span text:style-name="NoBold">Bachelor of Science in Electrical Engineering and Computer Science<text:s text:c="3" />(GPA 5.0/5.0)</text:span>
+        <text:span>Bachelor of Science in Electrical Engineering and Computer Science<text:s text:c="3" />(GPA 5.0/5.0)</text:span>
         <text:tab />
-        <text:span text:style-name="NoBold">2009-2013</text:span>
+        <text:span>2009-2013</text:span>
       </text:p>
 
 
       <!-- ##### EXPERIENCE ##### -->
       <text:p text:style-name="SuperHeader">Experience<text:s text:c="2" /><text:tab /></text:p>
-      <!--
       <text:p text:style-name="Header">
         <text:span>Messenger Team, Facebook</text:span>
         <text:tab />
@@ -112,17 +108,16 @@
       <text:p text:style-name="SubHeader">
         <text:span>Software Engineering Intern</text:span>
         <text:tab />
-        <text:span text:style-name="NoBold">2018</text:span>
+        <text:span>2018</text:span>
       </text:p>
       <text:list text:style-name="List">
         <text:list-item>
-          <text:p text:style-name="Bullet"></text:p>
+          <text:p text:style-name="Bullet">Proposed and implemented improvements on a neural shift-reduce model for parsing sentences into hierarchical intent-slot semantic representation.</text:p>
         </text:list-item>
         <text:list-item>
-          <text:p text:style-name="Bullet"></text:p>
+          <text:p text:style-name="Bullet">Analyzed common errors, and designed new top-down and bottom-up parsing algorithms to address the errors.</text:p>
         </text:list-item>
       </text:list>
-      -->
       <text:p text:style-name="Header">
         <text:span>Google Research, Google</text:span>
         <text:tab />
@@ -131,7 +126,7 @@
       <text:p text:style-name="SubHeader">
         <text:span>Software Engineering Intern</text:span>
         <text:tab />
-        <text:span text:style-name="NoBold">2015</text:span>
+        <text:span>2015</text:span>
       </text:p>
       <text:list text:style-name="List">
         <text:list-item>
@@ -152,7 +147,7 @@
       <text:p text:style-name="SubHeader">
         <text:span>Research Intern</text:span>
         <text:tab />
-        <text:span text:style-name="NoBold">2014</text:span>
+        <text:span>2014</text:span>
       </text:p>
       <text:list text:style-name="List">
         <text:list-item>
@@ -173,7 +168,7 @@
       <text:p text:style-name="SubHeader">
         <text:span>Exchange Student</text:span>
         <text:tab />
-        <text:span text:style-name="NoBold">2013</text:span>
+        <text:span>2013</text:span>
       </text:p>
       <text:list text:style-name="List">
         <text:list-item>
@@ -191,7 +186,7 @@
       <text:p text:style-name="SubHeader">
         <text:span>Researcher, Intern</text:span>
         <text:tab />
-        <text:span text:style-name="NoBold">2012</text:span>
+        <text:span>2012</text:span>
       </text:p>
       <text:list text:style-name="List">
         <text:list-item>
@@ -213,7 +208,7 @@
       <text:p text:style-name="SubHeader">
         <text:span>Engineering Intern</text:span>
         <text:tab />
-        <text:span text:style-name="NoBold">2011</text:span>
+        <text:span>2011</text:span>
       </text:p>
       <text:list text:style-name="List">
         <text:list-item>
@@ -236,7 +231,7 @@
       <text:p text:style-name="SubHeader">
         <text:span>Researcher, Intern</text:span>
         <text:tab />
-        <text:span text:style-name="NoBold">2010</text:span>
+        <text:span>2010</text:span>
       </text:p>
       <text:list text:style-name="List">
         <text:list-item>
@@ -259,7 +254,7 @@
       <text:p text:style-name="SubHeader">
         <text:span>Researcher, Intern</text:span>
         <text:tab />
-        <text:span text:style-name="NoBold">2010</text:span>
+        <text:span>2010</text:span>
       </text:p>
       <text:list text:style-name="List">
         <text:list-item>
@@ -277,10 +272,12 @@
       <text:p text:style-name="Header">
         <text:span>Reinforcement Learning on Web Interfaces using Workflow-Guided Exploration</text:span>
         <text:tab />
-        <text:span text:style-name="NoBold">ICLR 2018</text:span>
+        <text:span text:style-name="NoBold">ICLR</text:span>
       </text:p>
       <text:p text:style-name="SubHeader">
-        <text:span text:style-name="NoBold">E. Liu*, K. Guu*, P. Pasupat*, T. Shi, P. Liang (*equal contribution)</text:span>
+        <text:span>E. Liu*, K. Guu*, P. Pasupat*, T. Shi, P. Liang (*equal contribution)</text:span>
+        <text:tab />
+        <text:span>2018</text:span>
       </text:p>
       <text:list text:style-name="List">
         <text:list-item>
@@ -294,26 +291,32 @@
       <text:p text:style-name="Header">
         <text:span>Compositional Semantic Parsing on Semi-Structured Tables</text:span>
         <text:tab />
-        <text:span text:style-name="NoBold">ACL 2015</text:span>
+        <text:span text:style-name="NoBold">ACL</text:span>
       </text:p>
       <text:p text:style-name="SubHeader">
-        <text:span text:style-name="NoBold">P. Pasupat, P. Liang</text:span>
+        <text:span>P. Pasupat, P. Liang</text:span>
+        <text:tab />
+        <text:span>2015</text:span>
       </text:p>
-      <text:p text:style-name="HeaderSmallTopMargin">
+      <text:p text:style-name="HeaderSpaceless">
         <text:span>Inferring Logical Forms From Denotations</text:span>
         <text:tab />
-        <text:span text:style-name="NoBold">ACL 2016</text:span>
+        <text:span text:style-name="NoBold">ACL</text:span>
       </text:p>
       <text:p text:style-name="SubHeader">
-        <text:span text:style-name="NoBold">P. Pasupat, P. Liang</text:span>
+        <text:span>P. Pasupat, P. Liang</text:span>
+        <text:tab />
+        <text:span>2016</text:span>
       </text:p>
-      <text:p text:style-name="HeaderSmallTopMargin">
+      <text:p text:style-name="HeaderSpaceless">
         <text:span>Macro Grammars and Holistic Triggering for Efficient Semantic Parsing</text:span>
         <text:tab />
-        <text:span text:style-name="NoBold">EMNLP 2017</text:span>
+        <text:span text:style-name="NoBold">EMNLP</text:span>
       </text:p>
       <text:p text:style-name="SubHeader">
-        <text:span text:style-name="NoBold">Y. Zhang, P. Pasupat, P. Liang</text:span>
+        <text:span>Y. Zhang, P. Pasupat, P. Liang</text:span>
+        <text:tab />
+        <text:span>2017</text:span>
       </text:p>
       <text:list text:style-name="List">
         <text:list-item>
@@ -330,7 +333,7 @@
         <text:span text:style-name="NoBold">ACL 2014</text:span>
       </text:p>
       <text:p text:style-name="SubHeader">
-        <text:span text:style-name="NoBold">P. Pasupat, P. Liang</text:span>
+        <text:span>P. Pasupat, P. Liang</text:span>
       </text:p>
       -->
       <!--
@@ -403,7 +406,7 @@
 
 
       <!-- ##### AWARDS ##### -->
-      <text:p text:style-name="SuperHeader">Awards<text:s text:c="2" /><text:tab /></text:p>
+      <text:p text:style-name="SuperHeaderWithSpace">Awards<text:s text:c="2" /><text:tab /></text:p>
       <text:list text:style-name="List">
         <text:list-item>
           <text:p text:style-name="Bullet">
@@ -421,7 +424,7 @@
 
 
       <!-- ##### SKILLS ##### -->
-      <text:p text:style-name="SuperHeader">Skills<text:s text:c="2" /><text:tab /></text:p>
+      <text:p text:style-name="SuperHeaderWithSpace">Skills<text:s text:c="2" /><text:tab /></text:p>
       <text:list text:style-name="List">
         <text:list-item>
           <text:p text:style-name="Bullet">
