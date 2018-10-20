@@ -76,7 +76,7 @@
 
       <!-- ##### EDUCATION ##### -->
       <text:p text:style-name="SuperHeader">Education<text:s text:c="2" /><text:tab /></text:p>
-      <text:p text:style-name="Header">
+      <text:p text:style-name="HeaderSpaceless">
         <text:span>Stanford University</text:span>
         <text:tab />
         <text:span text:style-name="NoBold">Stanford, CA</text:span>
@@ -100,7 +100,7 @@
 
       <!-- ##### EXPERIENCE ##### -->
       <text:p text:style-name="SuperHeader">Experience<text:s text:c="2" /><text:tab /></text:p>
-      <text:p text:style-name="Header">
+      <text:p text:style-name="HeaderSpaceless">
         <text:span>Messenger Team, Facebook</text:span>
         <text:tab />
         <text:span text:style-name="NoBold">Menlo Park, CA</text:span>
@@ -269,7 +269,7 @@
 
       <!-- ##### PUBLICATIONS ##### -->
       <text:p text:style-name="SuperHeader">Selected Publications<text:s text:c="2" /><text:tab /></text:p>
-      <text:p text:style-name="Header">
+      <text:p text:style-name="HeaderSpaceless">
         <text:span>Reinforcement Learning on Web Interfaces using Workflow-Guided Exploration</text:span>
         <text:tab />
         <text:span text:style-name="NoBold">ICLR</text:span>
@@ -406,7 +406,7 @@
 
 
       <!-- ##### AWARDS ##### -->
-      <text:p text:style-name="SuperHeaderWithSpace">Awards<text:s text:c="2" /><text:tab /></text:p>
+      <text:p text:style-name="SuperHeader">Awards<text:s text:c="2" /><text:tab /></text:p>
       <text:list text:style-name="List">
         <text:list-item>
           <text:p text:style-name="Bullet">
@@ -424,7 +424,7 @@
 
 
       <!-- ##### SKILLS ##### -->
-      <text:p text:style-name="SuperHeaderWithSpace">Skills<text:s text:c="2" /><text:tab /></text:p>
+      <text:p text:style-name="SuperHeader">Skills<text:s text:c="2" /><text:tab /></text:p>
       <text:list text:style-name="List">
         <text:list-item>
           <text:p text:style-name="Bullet">
