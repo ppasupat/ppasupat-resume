@@ -155,7 +155,7 @@
           <text:p text:style-name="Bullet">Bootstrapped classifiers for detecting knowledge base relations in spoken queries in an unsupervised fashion.</text:p>
         </text:list-item>
         <text:list-item>
-          <text:p text:style-name="Bullet">Mined queries from search engine query click logs and automatically label relations using distant supervision from knowledge graphs.</text:p>
+          <text:p text:style-name="Bullet">Mined queries from search engine query click logs and automatically labeled relations using distant supervision from knowledge graphs.</text:p>
         </text:list-item>
       </text:list>
       <text:p text:style-name="Header">
