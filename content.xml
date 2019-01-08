@@ -102,12 +102,12 @@
       <!-- ##### EXPERIENCE ##### -->
       <text:p text:style-name="SuperHeader">Experience<text:s text:c="2" /><text:tab /></text:p>
       <text:p text:style-name="HeaderSmallSpace">
-        <text:span>Messenger Team, Facebook</text:span>
+        <text:span>Facebook Conversational AI, Facebook</text:span>
         <text:tab />
         <text:span text:style-name="NoBold">Menlo Park, CA</text:span>
       </text:p>
       <text:p text:style-name="SubHeader">
-        <text:span>Software Engineering Intern</text:span>
+        <text:span>Research Intern</text:span>
         <text:tab />
         <text:span>2018</text:span>
       </text:p>
