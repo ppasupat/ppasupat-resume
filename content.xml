@@ -401,7 +401,7 @@
         </text:list-item>
       </text:list>
       -->
-      <text:p text:style-name="Header">Complete list of publications: <text:a xlink:type="simple" xlink:href="https://ppasupat.github.io/#publication"><text:span text:style-name="Link">https://ppasupat.github.io/#publication</text:span></text:a></text:p>
+      <text:p text:style-name="Header">Complete list of publications: <text:a xlink:type="simple" xlink:href="https://ppasupat.github.io/research.html"><text:span text:style-name="Link">https://ppasupat.github.io/research.html</text:span></text:a></text:p>
 
 
       <!-- ##### AWARDS ##### -->
